@@ -4,12 +4,14 @@
 #include <sourcemod>
 #include <multicolors>
 
+#define PLUGIN_VERSION = 2.1.1
+
 public Plugin myinfo =
 {
 	name = "Multi Colors",
 	author = "Bara, JoinedSenses, X8ETr1x",
 	description = "A summary of Colors and More Colors.",
-	version = "2.1.0",
+	version = PLUGIN_VERSION,
 	url = "https://github.com/X8ETr1x/sm-multi-colors"
 };
 
