@@ -1,12 +1,6 @@
 Multi Colors
 ============
 
-
-| Action Status | Discord |
-|:-------------:|:-------:|
-| [![Action Status](https://github.com/Bara/Multi-Colors/workflows/Compile%20with%20SourceMod/badge.svg)](https://github.com/Bara/Multi-Colors/actions) | [![Discord](https://img.shields.io/discord/388685157286019072.svg)](https://discord.gg/eCsqjcD) |
-
-
 (based on Stamm-Colors) is a summary of Colors and More Colors. Depending on the game More Colors will be used as default. Should the game be CS:GO Colors will be used. The include providing a perfect base for plugins supporting multiple games.
 
 ### Functions:
@@ -31,6 +25,3 @@ By using C* Functions, offers these include a good compatibility to Colors and M
  + Stamm-Colors: https://github.com/popoklopsi/Stamm/blob/master/include/stamm/stamm-colors.inc
  + Colors: https://forums.alliedmods.net/showthread.php?t=96831
  + More Colors: https://forums.alliedmods.net/showthread.php?t=185016
-
-### Download:
- + https://github.com/Bara/Multi-Colors

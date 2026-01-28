@@ -4,6 +4,15 @@
 #include <sourcemod>
 #include <multicolors>
 
+public Plugin myinfo =
+{
+	name = "Multi Colors",
+	author = "Bara, JoinedSenses, X8ETr1x",
+	description = "A summary of Colors and More Colors.",
+	version = "2.1.0",
+	url = "https://github.com/X8ETr1x/sm-multi-colors"
+};
+
 public void OnPluginStart()
 {
 	RegConsoleCmd("sm_multicolors", Command_MultiColors);
@@ -23,6 +32,8 @@ public Action Command_AddPrefix(int client, int args)
 		CSetPrefix("{orange}[MultiColor]{default}");
 		CReplyToCommand(client, "You can use {yellow}sm_multicolors {default}now !");
 	}
+	
+	return Plugin_Handled;
 }
 
 public Action Command_ClearPrefix(int client, int args)
@@ -37,6 +48,8 @@ public Action Command_ClearPrefix(int client, int args)
 	{
 		CReplyToCommand(client, "You can use {yellow}sm_multicolors {default}now !");
 	}
+	
+	return Plugin_Handled;
 }
 
 public Action Command_MultiColors(int client, int args)
@@ -72,4 +85,6 @@ public Action Command_MultiColors(int client, int args)
 	CPrintToChatObserversEx(client, "CPrintToChatObserversEx - {darkblue}%s - {darkred}%s", "Test", "Test");
 
 	CPrintToServer("CPrintToServer - {darkblue}%s - {darkred}%s", "Test", "Test");
+	
+	return Plugin_Handled;
 }
