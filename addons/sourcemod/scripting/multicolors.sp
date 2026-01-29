@@ -4,7 +4,7 @@
 #include <sourcemod>
 #include <multicolors>
 
-#define PLUGIN_VERSION = "2.1.1"
+#define PLUGIN_VERSION "2.1.1"
 
 public Plugin myinfo =
 {
