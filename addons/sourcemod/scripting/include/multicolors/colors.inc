@@ -574,6 +574,8 @@ public Action C_Event_MapStart(Event event, const char[] name, bool dontBroadcas
 	for (int i = 1; i <= MaxClients; ++i) {
 		C_SkipList[i] = false;
 	}
+
+	return Plugin_Handled;
 }
 
 /**
